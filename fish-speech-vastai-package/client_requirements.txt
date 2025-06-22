@@ -1,0 +1,5 @@
+# Requirements for the API client example
+# Install with: pip install -r client_requirements.txt
+
+requests>=2.25.0
+pathlib
