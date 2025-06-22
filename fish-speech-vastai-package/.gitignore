@@ -64,7 +64,7 @@ venv.bak/
 # --------------------
 data/
 results/
-checkpoints/
+# checkpoints/ - Allow checkpoints for deployment (using Git LFS for large files)
 references/
 demo-audios/
 example/
