@@ -1,0 +1,20 @@
+torch
+torchaudio
+pytorch-lightning>=2.0
+pyrootutils
+uvicorn
+kui
+loguru
+ormsgpack
+numpy
+hydra-core
+librosa
+descript-audio-codec
+natsort
+git+https://github.com/descriptinc/audiotools.git
+# Newly added dependencies
+lightning
+tiktoken
+transformers
+cachetools
+git+https://github.com/microsoft/LoRA.git
