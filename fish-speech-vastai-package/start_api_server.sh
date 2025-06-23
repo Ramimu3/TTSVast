@@ -27,7 +27,7 @@ fi
 # Start the API server
 # Listen on all interfaces (0.0.0.0) to allow external connections
 # Default port 8080 (you can change this if needed)
-echo "🌐 Starting API server on 0.0.0.0:8080..."
+echo "🌐 Starting API server on 0.0.0.0:8081..."
 echo "📡 API will be accessible at: http://[YOUR_VAST_AI_IP]:8080"
 echo ""
 echo "🔑 API Endpoints:"
@@ -38,7 +38,7 @@ echo "💡 To stop the server, press Ctrl+C"
 echo ""
 
 python tools/api_server.py \
-    --listen 0.0.0.0:8080 \
+    --listen 0.0.0.0:8081 \
     --device $DEVICE \
     --llama-checkpoint-path checkpoints/openaudio-s1-mini \
     --decoder-checkpoint-path checkpoints/openaudio-s1-mini/codec.pth \
